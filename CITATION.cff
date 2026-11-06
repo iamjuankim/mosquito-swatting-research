@@ -1,0 +1,15 @@
+
+cff-version: 1.2.0
+message: "If you use this research code or results, please cite this release."
+type: software
+
+authors:
+  - family-names: Kim
+    given-names: Juan
+
+title: "Mosquito Swatting Research: Reproducibility Code and Selected Results"
+version: "v1.0-paper-submission"
+date-released: 2026-11-06
+
+repository-code: "https://github.com/iamjuankim/mosquito-swatting-research"
+url: "https://github.com/iamjuankim/mosquito-swatting-research"
