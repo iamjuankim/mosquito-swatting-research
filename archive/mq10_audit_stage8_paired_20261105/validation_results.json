@@ -1,0 +1,22 @@
+{
+  "conditions": 48,
+  "draw_pairs": 9600,
+  "trajectory_pairs": 38400000,
+  "checkpoint_hash_metadata_array_validation": "PASS",
+  "Stage7_summary_reproduction": "PASS",
+  "legacy_manifest_hashes": "PASS",
+  "time_precision_and_infinity_validation": "PASS",
+  "cross_speed_u_threshold_equal_comparisons": 8400,
+  "protected_files": 19422,
+  "protected_changes": [],
+  "previous_speed_all_match": true,
+  "simulator_imported": false,
+  "final_scientific_H2_verdict": "DEFERRED",
+  "precontact_detection_rows": 9600,
+  "precontact_state_partition": "PASS",
+  "historical_H2_effect_classifications_unchanged": true,
+  "all_condition_capture_delta_medians_zero": true,
+  "independent_output_array_reconciliation": "PASS",
+  "protected_after_all_postprocessing": "PASS",
+  "protected_changes_after_all_postprocessing": []
+}

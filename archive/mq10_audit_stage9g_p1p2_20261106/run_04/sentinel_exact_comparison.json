@@ -1,0 +1,431 @@
+{
+  "status": "PASS",
+  "sentinels": [
+    {
+      "condition_id": "original__v8_n1_a",
+      "j": 0,
+      "arrays": {
+        "captured": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_contact_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_det_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_end_obs_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "dt_s": {
+          "dtype": "float64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "n_steps": {
+          "dtype": "int64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "M0": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "theta": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "i0": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "trigger_i": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "stimulus": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "spontaneous": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "u_threshold": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "j": {
+          "dtype": "int64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "trajectory_id": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        }
+      },
+      "new_B_L_full_input_randoms_bit_exact": true
+    },
+    {
+      "condition_id": "original__v12_n1_a",
+      "j": 0,
+      "arrays": {
+        "captured": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_contact_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_det_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_end_obs_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "dt_s": {
+          "dtype": "float64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "n_steps": {
+          "dtype": "int64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "M0": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "theta": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "i0": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "trigger_i": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "stimulus": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "spontaneous": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "u_threshold": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "j": {
+          "dtype": "int64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "trajectory_id": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        }
+      },
+      "new_B_L_full_input_randoms_bit_exact": true
+    },
+    {
+      "condition_id": "calibrated__v8_n1_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "arrays": {
+        "captured": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_contact_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_det_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_end_obs_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "dt_s": {
+          "dtype": "float64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "n_steps": {
+          "dtype": "int64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "M0": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "theta": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "i0": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "trigger_i": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "stimulus": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "spontaneous": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "u_threshold": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "j": {
+          "dtype": "int64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "trajectory_id": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        }
+      },
+      "new_B_L_full_input_randoms_bit_exact": true
+    },
+    {
+      "condition_id": "calibrated__v12_n1_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "arrays": {
+        "captured": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_contact_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_det_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "t_end_obs_s": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "dt_s": {
+          "dtype": "float64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "n_steps": {
+          "dtype": "int64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "M0": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "theta": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "i0": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "trigger_i": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "stimulus": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "spontaneous": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "u_threshold": {
+          "dtype": "float64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        },
+        "j": {
+          "dtype": "int64",
+          "shape": [],
+          "bit_exact": true
+        },
+        "trajectory_id": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ],
+          "bit_exact": true
+        }
+      },
+      "new_B_L_full_input_randoms_bit_exact": true
+    }
+  ],
+  "past_full_rng_direct_comparison": "impossible: historical full pick/u/z arrays not stored; only saved u_threshold directly compared; connected via source/manifest/generation contract and four exact output sentinels",
+  "new_B_L_full_batch_direct_bit_comparison": true
+}

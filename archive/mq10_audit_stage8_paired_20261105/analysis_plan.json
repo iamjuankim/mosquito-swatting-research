@@ -1,0 +1,13 @@
+{
+  "scope": "48 fixed conditions x 200 draws x N4000; no simulator imports",
+  "join": [
+    "condition_id",
+    "j",
+    "trajectory_id"
+  ],
+  "posterior_summary": "equal empirical weights of stored P1 selected draws, no resampling or reweighting",
+  "time": "native float32 legacy / float64 stable; deltas only both finite; state transitions on full denominator",
+  "intervals": "descriptive equal-tail 95% and 90%; historical G: hull of quantile and mean +/- z SD, alpha E=.01, adjacent=.05/35, delta=.02",
+  "MC": "paired sample SD/sqrt(4000); sensitivity intervals shifted by +/-2 SE, diagnostic only; no new decision rule",
+  "precision": "float32 bit equality after casting stable times is a precision-compatible diagnostic, not proof of identical path"
+}

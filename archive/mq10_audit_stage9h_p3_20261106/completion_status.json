@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "completed_KST": "2026-11-06T02:17:15.633218+09:00",
+  "exploratory": true,
+  "prior_P3_necessity_condition_met": false,
+  "all_six_local_decrease_classifications_retained": true,
+  "new_L_batches": 2364,
+  "reused_L_batches": 36,
+  "new_trajectories": 9456000,
+  "new_B_batches": 0,
+  "overall_H2_rejudged": false,
+  "additional_experiments_after_P3": 0
+}

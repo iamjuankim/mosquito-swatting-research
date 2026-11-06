@@ -1,0 +1,136 @@
+{
+  "scope": "Only these 19 legacy and 19 stable N4000 gate batches; no full production authorization",
+  "cases": [
+    {
+      "condition_id": "original__v0.5_n0.8_a",
+      "j": 0
+    },
+    {
+      "condition_id": "original__v0.5_n1_a",
+      "j": 73
+    },
+    {
+      "condition_id": "original__v0.5_n1.2_a",
+      "j": 199
+    },
+    {
+      "condition_id": "original__v4_n0.8_a",
+      "j": 73
+    },
+    {
+      "condition_id": "original__v4_n1_a",
+      "j": 199
+    },
+    {
+      "condition_id": "original__v4_n1.2_a",
+      "j": 0
+    },
+    {
+      "condition_id": "original__v12_n0.8_a",
+      "j": 199
+    },
+    {
+      "condition_id": "original__v12_n1_a",
+      "j": 0
+    },
+    {
+      "condition_id": "original__v12_n1.2_a",
+      "j": 73
+    },
+    {
+      "condition_id": "calibrated__v0.5_n0.8_k8.2_a_d-0.87_cal",
+      "j": 0
+    },
+    {
+      "condition_id": "calibrated__v0.5_n1_k8.2_a_d-0.87_cal",
+      "j": 73
+    },
+    {
+      "condition_id": "calibrated__v0.5_n1.2_k8.2_a_d-0.87_cal",
+      "j": 199
+    },
+    {
+      "condition_id": "calibrated__v4_n0.8_k8.2_a_d-0.87_cal",
+      "j": 73
+    },
+    {
+      "condition_id": "calibrated__v4_n1_k8.2_a_d-0.87_cal",
+      "j": 199
+    },
+    {
+      "condition_id": "calibrated__v4_n1.2_k8.2_a_d-0.87_cal",
+      "j": 0
+    },
+    {
+      "condition_id": "calibrated__v12_n0.8_k8.2_a_d-0.87_cal",
+      "j": 199
+    },
+    {
+      "condition_id": "calibrated__v12_n1_k8.2_a_d-0.87_cal",
+      "j": 0
+    },
+    {
+      "condition_id": "calibrated__v12_n1.2_k8.2_a_d-0.87_cal",
+      "j": 73
+    },
+    {
+      "condition_id": "original__v12_n1_a",
+      "j": 73
+    }
+  ],
+  "legacy_ids": "all trajectory IDs 0..3999 in every gate batch",
+  "stage6_ids": [
+    728,
+    428,
+    2589,
+    500,
+    1070,
+    2475,
+    538,
+    1112,
+    1345,
+    3937,
+    2336,
+    3501,
+    2457,
+    902,
+    3237,
+    3183,
+    357,
+    3429,
+    3033,
+    3502,
+    2826,
+    2170,
+    265,
+    1028,
+    3331,
+    3903,
+    3052,
+    3104,
+    2524,
+    3702,
+    2815,
+    856,
+    715
+  ],
+  "criteria": {
+    "legacy": "captured exact; time states and float32 bits/signs exact; no tolerance",
+    "stage6": "all 33 saved legacy/stable thresholds, outcomes and trigger frames exact",
+    "stable": "strict=True, finite exp; u>0 Theta>M0; u=0 Theta>=M0; original M>=Theta; unresolved/overflow/conditioning violations abort",
+    "protection": "all protected file lists/size/mtime_ns/SHA256 and Git HEAD/status unchanged",
+    "checkpoint": "atomic NPZ then hashed final marker, roundtrip, corrupt/signature rejection, incomplete/duplicate rejection, process failure + resume without simulation",
+    "go": "all gates including final protected snapshot PASS; full production remains manual"
+  },
+  "maximum_gate_simulations": 152000,
+  "forbidden": [
+    "A-only intervention",
+    "P0",
+    "appendix",
+    "recalibration",
+    "MCMC",
+    "H/Z",
+    "H2 judgement",
+    "paper edits"
+  ]
+}

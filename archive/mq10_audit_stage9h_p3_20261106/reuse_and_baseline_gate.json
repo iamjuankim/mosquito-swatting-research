@@ -1,0 +1,227 @@
+{
+  "status": "PASS",
+  "reused_L": [
+    {
+      "condition_id": "original__v8_n0.8_a",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v8_n0.8_a\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v8_n0.8_a",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v8_n0.8_a\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v8_n0.8_a",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v8_n0.8_a\\j199.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v12_n0.8_a",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v12_n0.8_a\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v12_n0.8_a",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v12_n0.8_a\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v12_n0.8_a",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v12_n0.8_a\\j199.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v8_n1_a",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v8_n1_a\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v8_n1_a",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v8_n1_a\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v8_n1_a",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v8_n1_a\\j199.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v12_n1_a",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v12_n1_a\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v12_n1_a",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v12_n1_a\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v12_n1_a",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v12_n1_a\\j199.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v8_n1.2_a",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v8_n1.2_a\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v8_n1.2_a",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v8_n1.2_a\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v8_n1.2_a",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v8_n1.2_a\\j199.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v12_n1.2_a",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v12_n1.2_a\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v12_n1.2_a",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v12_n1.2_a\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "original__v12_n1.2_a",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\original__v12_n1.2_a\\j199.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v8_n0.8_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v8_n0.8_k8.2_a_d-0.87_cal\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v8_n0.8_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v8_n0.8_k8.2_a_d-0.87_cal\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v8_n0.8_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v8_n0.8_k8.2_a_d-0.87_cal\\j199.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v12_n0.8_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v12_n0.8_k8.2_a_d-0.87_cal\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v12_n0.8_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v12_n0.8_k8.2_a_d-0.87_cal\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v12_n0.8_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v12_n0.8_k8.2_a_d-0.87_cal\\j199.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v8_n1_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v8_n1_k8.2_a_d-0.87_cal\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v8_n1_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v8_n1_k8.2_a_d-0.87_cal\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v8_n1_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v8_n1_k8.2_a_d-0.87_cal\\j199.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v12_n1_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v12_n1_k8.2_a_d-0.87_cal\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v12_n1_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v12_n1_k8.2_a_d-0.87_cal\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v12_n1_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v12_n1_k8.2_a_d-0.87_cal\\j199.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v8_n1.2_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v8_n1.2_k8.2_a_d-0.87_cal\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v8_n1.2_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v8_n1.2_k8.2_a_d-0.87_cal\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v8_n1.2_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v8_n1.2_k8.2_a_d-0.87_cal\\j199.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v12_n1.2_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v12_n1.2_k8.2_a_d-0.87_cal\\j000.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v12_n1.2_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v12_n1.2_k8.2_a_d-0.87_cal\\j073.npz",
+      "input_fingerprint_exact": true
+    },
+    {
+      "condition_id": "calibrated__v12_n1.2_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "source": "/RESEARCH_ROOT\\mq10_audit_stage9g_p1p2_20261106\\run_04\\checkpoints\\L\\calibrated__v12_n1.2_k8.2_a_d-0.87_cal\\j199.npz",
+      "input_fingerprint_exact": true
+    }
+  ],
+  "stored_B_batches_checked": 2400,
+  "all_schema_array_hash_metadata_checks": true,
+  "all_B_u_threshold_and_strict_theta_reconstruction_bit_exact": true,
+  "new_baseline_simulations": 0,
+  "new_L_simulations": 0,
+  "historical_full_random_arrays": "not stored; same original generator and run_04 exact four sentinels reused; no historical full-RNG direct comparison claimed"
+}

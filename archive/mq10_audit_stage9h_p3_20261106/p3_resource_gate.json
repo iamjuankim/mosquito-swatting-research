@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-05T16:33:37.484827+00:00",
+  "source": "run_04 actual maximum costs",
+  "max_simulation_s": 0.7809738000214566,
+  "max_checkpoint_s": 0.10197699998388998,
+  "max_pair_read_summary_s": 0.040513600019039586,
+  "remaining_new_batches": 2364,
+  "single_pass_estimate_s": 2183.069841657649,
+  "two_times_estimate_plus_600s_IO_startup_budget_s": 4966.139683315298,
+  "postvalidation_report_reserve_s": 5400,
+  "stop_cleanup_reserve_s": 1800,
+  "science_time_available_s": 51982.515173,
+  "report_time_available_s": 59182.515173,
+  "peak_RSS_bytes": 239644672,
+  "disk_free_bytes": 269339676672,
+  "expected_output_upper_bytes": 1891200000,
+  "execution": "one process, one batch, sequential; extrapolation uncertain, stop on budget/limits/failure"
+}

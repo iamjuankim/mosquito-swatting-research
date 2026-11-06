@@ -1,0 +1,42 @@
+[project]
+name = "mq10"
+version = "0.1.0"
+description = "Mosquito detection model and swat-myth simulation"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+    "polars",
+    "pyarrow",
+    "scipy",
+    "statsmodels",
+    "scikit-learn",
+    "pymc",
+    "nutpie",
+    "arviz",
+    "optuna",
+    "SALib",
+    "meshio",
+    "pyvista",
+    "matplotlib",
+    "opencv-python",
+    "h5py>=3.16.0",
+    "pypdf>=6.21.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/swat"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

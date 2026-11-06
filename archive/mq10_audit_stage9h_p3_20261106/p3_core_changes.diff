@@ -1,0 +1,37 @@
+--- run_04/execute.py reusable prefix
++++ p3_core.py reusable prefix
+@@ -6,7 +6,7 @@
+ from datetime import datetime,timezone
+ import importlib.metadata as IM
+ T0=time.perf_counter(); CPU0=time.process_time()
+-S7=B.parent.parent/'mq10_audit_stage7_h2_stable_20261105'; ROOT=B.parent.parent/'mq10'
++S7=B.parent/'mq10_audit_stage7_h2_stable_20261105'; ROOT=B.parent/'mq10'
+ SCIENCE_DEADLINE=datetime(2026,11,6,7,0,tzinfo=timezone.utc)
+ REPORT_DEADLINE=datetime(2026,11,6,9,0,tzinfo=timezone.utc)
+ RES=[]; G={f'CFI{i}':{'status':'BLOCKED','reason':'not reached'} for i in range(5)}
+@@ -132,9 +132,9 @@
+     return batch,c,P,esc,k,fields
+ def compute(ctx,spec,j,variant,args):
+     batch,c,P,esc,k,fields=args
+-    check(STATE['attempted_batches']<40,'BATCH_CAP')
++    check(STATE['attempted_batches']<2364,'BATCH_CAP')
+     limits(True)
+-    check(time.perf_counter()-SCI_START<30*60,'SCIENCE_30MIN_BUDGET')
++    check(time.perf_counter()-SCI_START<SCI_BUDGET,'P3_MEASURED_SCIENCE_BUDGET')
+     STATE['attempted_batches']+=1;STATE['attempted_trajectories']+=4000
+     STATE['current']={'variant':variant,'condition_id':spec['id'],'j':j};flush()
+     diag={'M0':np.full(4000,np.nan),'theta':np.full(4000,np.nan),'i0':np.full(4000,-1,np.int64),'trigger_i':np.full(4000,-1,np.int64),'stimulus':np.zeros(4000,bool),'spontaneous':np.zeros(4000,bool),'u_threshold':batch.u[:,0].copy()}
+@@ -178,7 +178,7 @@
+     out.update(diag);out.update(j=np.asarray(j,np.int64),trajectory_id=np.arange(4000,dtype=np.int64))
+     check(started==4000,'INITIALIZATION_INCOMPLETE');EX.validate_arrays(out);check(set(out)==SCHEMA,'OUTPUT_SCHEMA')
+     check(all(np.isfinite(v).all() for v in extra.values()),'CONDITIONING_DIAGNOSTIC_NONFINITE')
+-    metric('simulation',st,phase='P1' if not STATE['P1_complete'] else 'P2',variant=variant,condition_id=spec['id'],j=j,N=4000,observer_validation_wall_s=obs_time)
++    metric('simulation',st,phase='P3',variant=variant,condition_id=spec['id'],j=j,N=4000,observer_validation_wall_s=obs_time)
+     st=begin();p=B/'checkpoints'/variant/spec['id']/f'j{j:03d}.npz';p.parent.mkdir(parents=True,exist_ok=True)
+     with p.open('xb') as f:np.savez_compressed(f,**out)
+     d=p.with_name(p.stem+'_conditioning.npz')
+@@ -189,3 +189,4 @@
+     STATE['completed_batches']+=1;STATE['completed_trajectories']+=4000;flush()
+     print('COMPLETE',STATE['completed_batches'],variant,spec['id'],j,flush=True)
+     return out,extra
++

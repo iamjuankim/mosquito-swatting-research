@@ -1,0 +1,30 @@
+{
+  "signature": "7679b68ee7b71ea187166a06006510643ed018c534c2d405c19fdec433807f74",
+  "code_sha256": {
+    "runtime.py": "1e88d7fa10af189e22f71a50be1975df70dcbe9462508c80a8a13bc3b5591b9a",
+    "common.py": "ff527b90dd7f8377a5be616b1587217d61e9f0569eec547e95b9e1d5ab8612a0",
+    "executor.py": "19147f27febe5c4105b2c640e87a6b1cbc1d727d2e67d69fee8c23021f9603dc",
+    "stable_threshold.py": "693a681df0efed1ee4cf2ab2fce4596f4ec8ef578edc8e7e24234b295924e3e3",
+    "runner.py": "aeaa2fd23d8c5bddc06e3dc84a49b57bb1b70a9c24593900ea05940944cea8cd",
+    "preflight.py": "ed58f3151ad455169f3185ed4a22168974048ecb3f687a3a59607046068d97e6",
+    "safety.py": "750fac415645caf3d67b1f7952059636bfca5f306c20f0bc8c2286bcb23ef943",
+    "conditions.json": "4bc10e2cae7c6985e585346b0e9b3a60c12ab5d7bce47bc46c50caeb6c1ae988",
+    "preregistered_gates.json": "14cccab424e2cb0b8cb811421c887ca69bb2536f4ffe3615a3c109daf1e48952",
+    "source\\run_original.py": "f53532377f8df7b8b57f8048eaaeba4100228426f5012eb75df8a472e1930fb7",
+    "source\\swat\\__init__.py": "21bed93eb04a3a6867be45300b496ca802eb3d4406b5f219ade3081e7cd3b2c5",
+    "source\\swat\\bound.py": "def339588a9b143aef9f53c6ca9ebdc3bc9bfad9ff71964b32f02e1cfad0eb27",
+    "source\\swat\\connectome.py": "0d34a32bf6439b58095e16199c9f0f71627cc14b57825c0edafd0fc84600d288",
+    "source\\swat\\detection.py": "86976ee39a37cc72df6aab41b5932eaaadf7e53db2de09370631723f751c305b",
+    "source\\swat\\escape.py": "00694c9796044806d7c567bed8833d940d4e9e827cd894d5cdd4f84efd1edf1e",
+    "source\\swat\\flow.py": "fe55adb4715581e13a0a716a2fa094d9b2b2ec962a2dff6dd3bb38de1a2c4689",
+    "source\\swat\\optimize.py": "cd946c6a33530a219010ef02bc8dcd3ec9d466a98102cd52f0afe4c291729737",
+    "source\\swat\\porous.py": "c37a07792bc30533e1f05699d85dd2cf1a9c8c27bcca4604abd0223d84a34ef6",
+    "source\\swat\\provenance.py": "95113e2b3430e47fab7613bbf6055d50b21b21f029514609677bf055071259d2",
+    "source\\swat\\simulate.py": "49e6a70a74e507f0d16e11225fb524ef946e2b38f3b067240a2d06979325b003"
+  },
+  "executor_diff_sha256": "431a0c6a0cc42966b5de561c0e1d5becbc1ddeac3f06bac11e0d38a6f24f49af",
+  "stable_matches_stage5": true,
+  "prior_signature": "c9d0865999772ae319cae247a40153ce828e914ffd3e05c8ac7997111936417d",
+  "repair_diff_sha256": "92bce758c5ae162ccda468eceb980a316aa782b79b967667ffc9b1a271458cfb",
+  "science_and_settings_unchanged": true
+}

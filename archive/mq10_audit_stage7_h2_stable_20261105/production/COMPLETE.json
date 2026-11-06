@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "signature": "7679b68ee7b71ea187166a06006510643ed018c534c2d405c19fdec433807f74",
+  "batches": 9600,
+  "trajectories": 38400000,
+  "postflight_sha256": "082cb8d681b8b850bc8cf4fdab3bc0480d8fb86fabd97690d51555b676933cff",
+  "safety_comparison": "safety_20261105_035015_46380_comparison.json"
+}

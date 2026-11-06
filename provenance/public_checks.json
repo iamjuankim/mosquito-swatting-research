@@ -1,0 +1,16 @@
+{
+  "scope": "Public-package checks only; no simulation/production Gate rerun",
+  "summary_recalculation": {
+    "scope": "Published CSV summaries only; no simulations or historical Gates rerun",
+    "stage9h_blocks": 6,
+    "stage8_effect_rows": 96,
+    "comparison": "matched",
+    "rtol": 1e-11,
+    "atol": 2e-14
+  },
+  "historical_source_identity": "checked against Stage7/run_04/P3 code manifests by tools/verify_package.py",
+  "privacy": "All explicitly selected UTF-8 text decoded and screened for personal paths, emails, credential literals and private keys. Local path redactions only; no raw personal data included.",
+  "git_history": "New repository, one intended initial payload commit, neutral author, no inherited objects",
+  "rights": "No license assigned. Third-party raw/code/PDF exports omitted; derived-result obligations remain unresolved.",
+  "original_research": "Read-only; no simulations, refits, whole-tree audits or changes performed"
+}

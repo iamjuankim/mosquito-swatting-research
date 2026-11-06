@@ -1,0 +1,5 @@
+# Environment
+
+Historical Stage9H identity record: Windows 11 build 26200, Python 3.12.16, NumPy 2.5.4, SciPy 1.18.1, pandas 3.1.0, xarray 2026.9.0. OMP_NUM_THREADS, OPENBLAS_NUM_THREADS, MKL_NUM_THREADS and NUMEXPR_NUM_THREADS were all 1. Stage9G environment comparison and Stage9H identity records are included with executable locations redacted.
+
+`requirements-public.txt` records the directly used versions for public table recomputation. `archive/mq10/pyproject.toml` and `uv.lock` describe the broader original project dependencies, including PyMC/nutpie for fitting, xarray/Zarr for posterior access, joblib for flow models and pypdf for reporting. They are reference records, not a claim that this minimal package is an installable full production project. No binary, virtual environment, downloaded package source or cache is included. Bit-exact numerical results across platforms/library versions are not guaranteed. The recorded numerical versions have not been reinstalled on a clean environment during packaging.

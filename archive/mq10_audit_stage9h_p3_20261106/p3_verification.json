@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-05T17:15:35.713562+00:00",
+  "draw_rows": 1200,
+  "condition_draw_rows": 2400,
+  "local_rule_G_rows": 6,
+  "capture_counts_reconciled": 4800,
+  "new_checkpoints": 2364,
+  "reused_checkpoints": 36,
+  "strict_tolerances_unchanged": true,
+  "numeric_maxima": {
+    "max_uniform_recovery_error": 2.498001805406602e-16,
+    "max_tail_residual_fraction_of_existing_tolerance": 0.06385992556912397,
+    "max_independent_drive_absolute_error": 0.0,
+    "max_survival_increase": 0.0,
+    "L_logZ_sensitive_total": 0
+  },
+  "B_matches_existing_Stage8_Delta7_draws_intervals_and_classification": true,
+  "consumed_input_preservation_files": 2588,
+  "no_external_write_attempts": true,
+  "no_new_simulations_in_analysis": true,
+  "overall_H2_rejudged": false
+}

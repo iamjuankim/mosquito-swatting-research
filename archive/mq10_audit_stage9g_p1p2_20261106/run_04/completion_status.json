@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "reporting_completed_utc": "2026-11-05T16:16:20.265366+00:00",
+  "scientific_batches": 40,
+  "scientific_trajectories": 160000,
+  "CFI0_to_4": "PASS",
+  "P3_executed": false,
+  "report": "stage9g_p1p2_execution_report.md",
+  "handover": "handover.md"
+}

@@ -1,0 +1,279 @@
+{
+  "frozen_utc": "2026-11-05T16:14:00.619425+00:00",
+  "normative_plan_sha256": "1788996b810dbd06158e2a723e9f6754988c138065d6b36fd934f26a997a5d92",
+  "P2_results_seen": false,
+  "selection": [
+    {
+      "condition_id": "original__v8_n0.8_a",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v8_n0.8_a",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v8_n0.8_a",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v12_n0.8_a",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v12_n0.8_a",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v12_n0.8_a",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v8_n1_a",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v8_n1_a",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v8_n1_a",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v12_n1_a",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v12_n1_a",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v12_n1_a",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v8_n1.2_a",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v8_n1.2_a",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v8_n1.2_a",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v12_n1.2_a",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v12_n1.2_a",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "original__v12_n1.2_a",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v8_n0.8_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v8_n0.8_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v8_n0.8_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v12_n0.8_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v12_n0.8_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v12_n0.8_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v8_n1_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v8_n1_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v8_n1_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v12_n1_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v12_n1_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v12_n1_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v8_n1.2_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v8_n1.2_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v8_n1.2_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v12_n1.2_k8.2_a_d-0.87_cal",
+      "j": 0,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v12_n1.2_k8.2_a_d-0.87_cal",
+      "j": 73,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    },
+    {
+      "condition_id": "calibrated__v12_n1.2_k8.2_a_d-0.87_cal",
+      "j": 199,
+      "N": 4000,
+      "MC": "a",
+      "variant": "L"
+    }
+  ],
+  "claim_target": "Whether all six model x n 8-to-12 decreases hold under L for the existing empirical P1 200 coordinates / MC a. Three draws cannot answer this target.",
+  "current_reporting_need": "Authorized P1/P2 case screening is sufficient for this task. P3 is not necessary to complete this task; a request for the stated 200-coordinate claim would require separate review and authorization.",
+  "expansion_not_based_on": [
+    "large effect",
+    "zero effect",
+    "favorable G",
+    "selected blocks or draws"
+  ],
+  "P3_required_conditions": [
+    "explicit scientific need for stated claim, recorded before P2 viewing",
+    "all six model x n blocks, both speeds, all existing 200 coordinates, L only",
+    "report every block/failure/incomplete regardless of direction",
+    "CFI0-4 PASS; P2 all 36 L complete; no unresolved blocking numerical/definition/conditioning issue",
+    "200-coordinate parameter/chunk Gate under separate read authority",
+    "conservative measured execution+input+QA+protection+interpretation+report budget fits deadline",
+    "separate user approval for P3 and local unchanged G analysis"
+  ],
+  "P3_new_batches_if_authorized": 2364,
+  "P3_reserved_batches": 0,
+  "P3_authorized": false
+}

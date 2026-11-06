@@ -1,0 +1,969 @@
+{
+  "CFI0": {
+    "status": "PASS",
+    "environment_recorded": {
+      "python": "3.12.16 (main, Oct 26 2026, 14:10:56) [MSC v.1944 64 bit (AMD64)]",
+      "executable": "/RESEARCH_ROOT\\mq10\\.venv\\Scripts\\python.exe",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "xarray": "2026.9.0",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "threads": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1"
+      }
+    },
+    "source_manifest_hashes_verified": 9,
+    "input_files_verified": 43,
+    "Zarr_access_scope": {
+      "w_v": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\w_v\\c\\0\\0"
+        ]
+      },
+      "rho_vs": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\rho_vs\\c\\0\\0"
+        ]
+      },
+      "rho_av": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\rho_av\\c\\0\\0"
+        ]
+      },
+      "theta_pk": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\theta_pk\\c\\0\\0"
+        ]
+      },
+      "sigma_theta": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\sigma_theta\\c\\0\\0"
+        ]
+      },
+      "tau_v": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\tau_v\\c\\0\\0"
+        ]
+      },
+      "tau_a": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\tau_a\\c\\0\\0"
+        ]
+      },
+      "lam0": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\lam0\\c\\0\\0"
+        ]
+      },
+      "sigma": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\sigma\\c\\0\\0"
+        ]
+      },
+      "c_t": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\c_t\\c\\0\\0"
+        ]
+      },
+      "k_h": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\k_h\\c\\0\\0"
+        ]
+      },
+      "a_sp": {
+        "dimensions": [
+          "chain",
+          "draw",
+          "a_sp_dim_0"
+        ],
+        "shape": [
+          4,
+          8000,
+          1
+        ],
+        "chunks": [
+          4,
+          8000,
+          1
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\a_sp\\c\\0\\0\\0"
+        ]
+      },
+      "b_sp": {
+        "dimensions": [
+          "chain",
+          "draw",
+          "b_sp_dim_0"
+        ],
+        "shape": [
+          4,
+          8000,
+          1
+        ],
+        "chunks": [
+          4,
+          8000,
+          1
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\b_sp\\c\\0\\0\\0"
+        ]
+      },
+      "sigma_sess": {
+        "dimensions": [
+          "chain",
+          "draw"
+        ],
+        "shape": [
+          4,
+          8000
+        ],
+        "chunks": [
+          4,
+          8000
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\sigma_sess\\c\\0\\0"
+        ]
+      },
+      "z_sess": {
+        "dimensions": [
+          "chain",
+          "draw",
+          "z_sess_dim_0"
+        ],
+        "shape": [
+          4,
+          8000,
+          15
+        ],
+        "chunks": [
+          2,
+          4000,
+          8
+        ],
+        "verified_chunks": [
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\z_sess\\c\\0\\0\\0",
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\z_sess\\c\\0\\0\\1",
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\z_sess\\c\\1\\0\\0",
+          "/RESEARCH_ROOT\\mq10\\data\\interim\\p2d_r\\mcmc\\mcmc_exp2_point_n848_d8000_s1_c4_t1000_d8000.zarr\\posterior\\z_sess\\c\\1\\0\\1"
+        ]
+      }
+    },
+    "protection_scope": "actually used inputs/code and selected checkpoints only; application audit guard plus workspace sandbox; no ACL probes or full tree scan",
+    "historical_P0_lineage": "unproven; disclosed, not reintroduced as automatic blocker",
+    "final_protection_pending": false
+  },
+  "CFI1": {
+    "status": "PASS",
+    "coordinates": {
+      "0": {
+        "chain": 2,
+        "draw": 2754,
+        "n_sessions": 15,
+        "raw_sigma_sess": 0.5178601922816929,
+        "P": {
+          "w_v": 1.6901690779419456,
+          "rho_vs": 2.6914977690228676,
+          "rho_av": 9.766116822502914,
+          "theta_pk": 43.53941896091427,
+          "sigma_theta": 0.5794589105297253,
+          "tau_v": 0.061841141424403806,
+          "tau_a": 0.030949634903070594,
+          "lam0": 0.9479553489859434,
+          "c_t": 0.25648043355433564,
+          "k_h": 0.18540280918402777,
+          "sigma": 0.7354775579563639,
+          "a_sp": [
+            -1.575744108390607
+          ],
+          "b_sp": [
+            0.822800543159277
+          ],
+          "eta_sess": [
+            0.2523415100304274,
+            0.464059274416347,
+            0.7646051327104967,
+            0.7557455906255285,
+            0.1597093504752591,
+            0.6220263766143418,
+            0.7941378450395786,
+            0.7081379435956722,
+            0.8576486941315918,
+            0.5654616809468909,
+            0.5542224962568458,
+            0.8099971350630708,
+            0.6996468141690516,
+            0.4258657195643275,
+            0.5742405835540706
+          ]
+        },
+        "materialized_variable_shapes": {
+          "w_v": [],
+          "rho_vs": [],
+          "rho_av": [],
+          "theta_pk": [],
+          "sigma_theta": [],
+          "tau_v": [],
+          "tau_a": [],
+          "lam0": [],
+          "c_t": [],
+          "k_h": [],
+          "sigma": [],
+          "a_sp": [
+            1
+          ],
+          "b_sp": [
+            1
+          ],
+          "sigma_sess": [],
+          "z_sess": [
+            15
+          ]
+        },
+        "materialized_bytes": 232,
+        "transform": "Exact existing det.params_from_draw via guarded .values[chain,draw] adapter, index-first Zarr __getitem__; no full variable materialization. No stored full P copy exists for direct comparison."
+      },
+      "73": {
+        "chain": 0,
+        "draw": 76,
+        "n_sessions": 15,
+        "raw_sigma_sess": 0.7238279491320162,
+        "P": {
+          "w_v": 3.2405836995390915,
+          "rho_vs": 1.74919484877319,
+          "rho_av": 4.514359331937603,
+          "theta_pk": 30.456362614272845,
+          "sigma_theta": 0.792745578357955,
+          "tau_v": 0.024907679496219786,
+          "tau_a": 0.02991658460836135,
+          "lam0": 0.6108506554774297,
+          "c_t": 0.6694765117299987,
+          "k_h": 0.9229512962390376,
+          "sigma": 0.6619944159483823,
+          "a_sp": [
+            -1.584587029400306
+          ],
+          "b_sp": [
+            1.5155611381699305
+          ],
+          "eta_sess": [
+            0.42749348853185287,
+            0.4236203545380118,
+            0.9096102036656823,
+            0.9521943252160673,
+            0.31457345041203943,
+            0.47433353810706946,
+            1.2951772731777034,
+            0.6474854391710329,
+            0.8328280134346946,
+            0.4461693505225726,
+            0.5074951936981632,
+            0.7847438216664812,
+            0.7306820721472935,
+            0.3913530604829478,
+            0.5051800275884017
+          ]
+        },
+        "materialized_variable_shapes": {
+          "w_v": [],
+          "rho_vs": [],
+          "rho_av": [],
+          "theta_pk": [],
+          "sigma_theta": [],
+          "tau_v": [],
+          "tau_a": [],
+          "lam0": [],
+          "c_t": [],
+          "k_h": [],
+          "sigma": [],
+          "a_sp": [
+            1
+          ],
+          "b_sp": [
+            1
+          ],
+          "sigma_sess": [],
+          "z_sess": [
+            15
+          ]
+        },
+        "materialized_bytes": 232,
+        "transform": "Exact existing det.params_from_draw via guarded .values[chain,draw] adapter, index-first Zarr __getitem__; no full variable materialization. No stored full P copy exists for direct comparison."
+      },
+      "199": {
+        "chain": 1,
+        "draw": 2594,
+        "n_sessions": 15,
+        "raw_sigma_sess": 0.8217536702094116,
+        "P": {
+          "w_v": 6.261460122800302,
+          "rho_vs": 1.6306453268904317,
+          "rho_av": 2.6046143228714165,
+          "theta_pk": 28.515130546548487,
+          "sigma_theta": 0.5127184324013181,
+          "tau_v": 0.014952193532403853,
+          "tau_a": 0.03147712036042291,
+          "lam0": 0.8141757880782415,
+          "c_t": 0.8266349088199607,
+          "k_h": 0.45606602026762244,
+          "sigma": 0.6772996723344953,
+          "a_sp": [
+            -2.4751102948057158
+          ],
+          "b_sp": [
+            1.4033354124418849
+          ],
+          "eta_sess": [
+            0.492601667510206,
+            0.3900695438651899,
+            0.919898895659907,
+            0.7261219689148712,
+            -0.13493359255951284,
+            0.5914430470616797,
+            0.9663325607976128,
+            0.5306941292276292,
+            0.864475271002396,
+            0.2817229924537478,
+            0.6630743373791284,
+            0.68402937647805,
+            0.7167681611709583,
+            0.5651828371578975,
+            0.42722173026325144
+          ]
+        },
+        "materialized_variable_shapes": {
+          "w_v": [],
+          "rho_vs": [],
+          "rho_av": [],
+          "theta_pk": [],
+          "sigma_theta": [],
+          "tau_v": [],
+          "tau_a": [],
+          "lam0": [],
+          "c_t": [],
+          "k_h": [],
+          "sigma": [],
+          "a_sp": [
+            1
+          ],
+          "b_sp": [
+            1
+          ],
+          "sigma_sess": [],
+          "z_sess": [
+            15
+          ]
+        },
+        "materialized_bytes": 232,
+        "transform": "Exact existing det.params_from_draw via guarded .values[chain,draw] adapter, index-first Zarr __getitem__; no full variable materialization. No stored full P copy exists for direct comparison."
+      }
+    },
+    "scope": "Only j0/73/199; same file bytes plus exact deterministic original transform; not direct comparison against an absent saved full P copy",
+    "MC_eta": "raw sigma_sess * new MC standard normal; observed eta_sess not substituted"
+  },
+  "CFI2": {
+    "status": "PASS",
+    "lag_cases": 28,
+    "baseline_text_exact": true,
+    "L_only_lag_AST_diff": true,
+    "original_extracted_function_ASTs_exact": true,
+    "sampler_text_exact": true,
+    "contract_review": "fixed_source_and_contract_review.json",
+    "schema": [
+      "M0",
+      "captured",
+      "dt_s",
+      "i0",
+      "j",
+      "n_steps",
+      "spontaneous",
+      "stimulus",
+      "t_contact_s",
+      "t_det_s",
+      "t_end_obs_s",
+      "theta",
+      "trajectory_id",
+      "trigger_i",
+      "u_threshold"
+    ]
+  },
+  "CFI3": {
+    "status": "PASS",
+    "sentinels": [
+      {
+        "condition_id": "original__v8_n1_a",
+        "j": 0,
+        "arrays": {
+          "captured": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_contact_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_det_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_end_obs_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "dt_s": {
+            "dtype": "float64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "n_steps": {
+            "dtype": "int64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "M0": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "theta": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "i0": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "trigger_i": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "stimulus": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "spontaneous": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "u_threshold": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "j": {
+            "dtype": "int64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "trajectory_id": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          }
+        },
+        "new_B_L_full_input_randoms_bit_exact": true
+      },
+      {
+        "condition_id": "original__v12_n1_a",
+        "j": 0,
+        "arrays": {
+          "captured": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_contact_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_det_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_end_obs_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "dt_s": {
+            "dtype": "float64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "n_steps": {
+            "dtype": "int64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "M0": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "theta": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "i0": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "trigger_i": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "stimulus": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "spontaneous": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "u_threshold": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "j": {
+            "dtype": "int64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "trajectory_id": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          }
+        },
+        "new_B_L_full_input_randoms_bit_exact": true
+      },
+      {
+        "condition_id": "calibrated__v8_n1_k8.2_a_d-0.87_cal",
+        "j": 0,
+        "arrays": {
+          "captured": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_contact_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_det_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_end_obs_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "dt_s": {
+            "dtype": "float64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "n_steps": {
+            "dtype": "int64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "M0": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "theta": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "i0": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "trigger_i": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "stimulus": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "spontaneous": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "u_threshold": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "j": {
+            "dtype": "int64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "trajectory_id": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          }
+        },
+        "new_B_L_full_input_randoms_bit_exact": true
+      },
+      {
+        "condition_id": "calibrated__v12_n1_k8.2_a_d-0.87_cal",
+        "j": 0,
+        "arrays": {
+          "captured": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_contact_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_det_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "t_end_obs_s": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "dt_s": {
+            "dtype": "float64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "n_steps": {
+            "dtype": "int64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "M0": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "theta": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "i0": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "trigger_i": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "stimulus": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "spontaneous": {
+            "dtype": "bool",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "u_threshold": {
+            "dtype": "float64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          },
+          "j": {
+            "dtype": "int64",
+            "shape": [],
+            "bit_exact": true
+          },
+          "trajectory_id": {
+            "dtype": "int64",
+            "shape": [
+              4000
+            ],
+            "bit_exact": true
+          }
+        },
+        "new_B_L_full_input_randoms_bit_exact": true
+      }
+    ],
+    "past_full_rng_direct_comparison": "impossible: historical full pick/u/z arrays not stored; only saved u_threshold directly compared; connected via source/manifest/generation contract and four exact output sentinels",
+    "new_B_L_full_batch_direct_bit_comparison": true
+  },
+  "CFI4": {
+    "status": "PASS",
+    "strict_original_tolerance_unchanged": true,
+    "all_P1_numeric_and_operating_checks_passed": true,
+    "P2_checks": "required continuously per frame and checkpoint",
+    "RSS_stop_bytes": 1073741824,
+    "disk_min_bytes": 5000000000,
+    "survival_tolerance": 1e-12,
+    "P2_all_36_L_numeric_and_operating_checks_passed": true
+  }
+}

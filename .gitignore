@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+generated/
+prepare_release.py
+review_release.py
+data/
+*.zarr/
+checkpoints/
+*.log
+.env
+.env.*

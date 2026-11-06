@@ -1,0 +1,10 @@
+{
+  "baseline": "normalized source text exact Stage7 executor",
+  "L": "sole AST change _lagged; independently zero both pre-start references; unchanged interpolation precision",
+  "feature_definitions": "Stage7 theta, C1 max(backward derivative,0), scaled air; same dt and row i0; no future reference for active rows",
+  "size_term": "max(theta,1e-6), no forced total D/F0/Z",
+  "conditioning": "same strict log-tail sampler, finite exp(logTheta), same M>=Theta; sigma epsilon +1e-3; spontaneous uniform separate",
+  "RNG": "default_rng([20261105,j,0]) -> pick -> uniform(N,6) -> normal z_a -> normal z; original k seed20261103; escape seed20261104",
+  "actual_stage7_end_time_key": "t_end_obs_s (+inf for these MC batches); no t_end_s key exists in actual saved schema",
+  "not_claimed": "Stage4 full padding/fitting equivalence; historical full RNG direct match; historical P0 full lineage"
+}
